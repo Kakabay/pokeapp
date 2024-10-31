@@ -12,6 +12,7 @@ const Layout = () => {
         headerTintColor: '#fff',
       }}>
       <Stack.Screen name="index" options={{ title: 'Pokedex' }} />
+      <Stack.Screen name="(pokemon)/[id]" options={{ title: '' }} />
     </Stack>
   );
 };
